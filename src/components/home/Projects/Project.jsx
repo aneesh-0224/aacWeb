@@ -2,7 +2,7 @@ import React from "react";
 import "./Project.css";
 import styled from "styled-components";
 
-export default function Project2({img_url}) {
+export default function Project2({img_url,title,desc}) {
   return (
     <div className="wrap">
       <div className="flip-card">
@@ -18,18 +18,9 @@ export default function Project2({img_url}) {
             />
           </div>
           <div className="flip-card-back">
-            <Title>John Doe</Title>
+            <Title>{title}</Title>
             <Text>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Voluptates et sit, optio vel illum nesciunt quos minus neque,
-              pariatur quidem esse harum maxime. Enim incidunt quibusdam eveniet
-              ducimus, nemo praesentium. Lorem ipsum dolor sit amet consectetur
-              adipisicing elit. Odio similique voluptatibus cupiditate dolores
-              sequi neque in ipsam error nam provident, illum hic asperiores,
-              quas sit aliquam quo facilis totam nostrum. Lorem ipsum dolor sit
-              amet consectetur adipisicing elit. Exercitationem architecto hic
-              quam officiis libero sint dolorum velit veniam magnam eum, sed
-              fuga tempore mollitia voluptatum, vel voluptatem ab saepe rem?
+              {desc}
             </Text>
           </div>
         </div>

@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/aacWeb/static/css/main.28934919.css",
-    "main.js": "/aacWeb/static/js/main.b992cdda.js",
+    "main.css": "/aacWeb/static/css/main.4678862d.css",
+    "main.js": "/aacWeb/static/js/main.1813a913.js",
     "static/js/787.702d0f00.chunk.js": "/aacWeb/static/js/787.702d0f00.chunk.js",
     "static/media/constellation.JPG": "/aacWeb/static/media/constellation.d316b8035d957adc94e8.JPG",
     "static/media/aneesh.jpeg": "/aacWeb/static/media/aneesh.bd3e75edf38f8ba13816.jpeg",
@@ -10,17 +10,18 @@
     "static/media/1.jpeg": "/aacWeb/static/media/1.3765d25b563725f33c3a.jpeg",
     "static/media/2.jpeg": "/aacWeb/static/media/2.2212c04794768f3bd19e.jpeg",
     "static/media/3.jpeg": "/aacWeb/static/media/3.5badb290bb5c83899a68.jpeg",
+    "static/media/solar.jpg": "/aacWeb/static/media/solar.7dae8647a2e7dd9b2a51.jpg",
     "static/media/5.jpeg": "/aacWeb/static/media/5.84237bc276f01d65068a.jpeg",
     "static/media/6.jpeg": "/aacWeb/static/media/6.dff5f748c9f3e38b9d20.jpeg",
     "static/media/4.jpeg": "/aacWeb/static/media/4.c90baf67b27fca500cc6.jpeg",
     "static/media/bg.svg": "/aacWeb/static/media/bg.ae8d116ff37b68ce469dfed172c71443.svg",
     "index.html": "/aacWeb/index.html",
-    "main.28934919.css.map": "/aacWeb/static/css/main.28934919.css.map",
-    "main.b992cdda.js.map": "/aacWeb/static/js/main.b992cdda.js.map",
+    "main.4678862d.css.map": "/aacWeb/static/css/main.4678862d.css.map",
+    "main.1813a913.js.map": "/aacWeb/static/js/main.1813a913.js.map",
     "787.702d0f00.chunk.js.map": "/aacWeb/static/js/787.702d0f00.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.28934919.css",
-    "static/js/main.b992cdda.js"
+    "static/css/main.4678862d.css",
+    "static/js/main.1813a913.js"
   ]
 }

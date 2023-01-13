@@ -25,8 +25,7 @@ export default function Footer2() {
             <hr />
             <div className="contact">
                 <div>Contact Us</div>
-                <div><i className="fa fa-phone"></i> 8105804731</div>
-                <div><i className="fa fa-phone"></i> 8919002061</div>
+                <div><i className="fa fa-envelope"></i> astronomy@nitk.edu.in</div>
             </div>
 
             <div className="copy">

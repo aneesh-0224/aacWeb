@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
     <Container>
-      <Logo>AAC</Logo>
+      <Logo>AAC NITK</Logo>
       <Links className="topnav" id="myTopnav">
         <Link  to="/" className="active">
           Home

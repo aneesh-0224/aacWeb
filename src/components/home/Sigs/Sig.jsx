@@ -36,8 +36,11 @@ export default function Project() {
               <h3 class="item-title">Astrophysics SIG</h3>
             </div>
             <p class="item-text">
-              AAC BEST AAC BEST AAC BEST AAC BEST AAC BESTAAC BEST AAC BEST AAC
-              BEST
+              We at Astrophysics Sig discuss about things ranging from the universe and the cosmos 
+              to the engineering marvels that humans have made.
+              We also keep a keen eye on the breakthroughs and developments in the field of Astronomy.
+              We hold debates on wide variety of topics in which every member is welcomed to give their opinions.
+              If you love physics and astronomy then this is the right place for you.
             </p>
           </div>
           <div class="item item3">

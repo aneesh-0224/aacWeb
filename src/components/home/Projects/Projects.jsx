@@ -3,15 +3,16 @@ import styled from "styled-components";
 import Project from "./Project";
 import constellation from './assets/constellation.JPG'
 import solar from './assets/solar.jpg'
-
+import constellationDescription from "./utils/constellation";
+import solarTracker from "./utils/solarTracker";
 export default function Projects() {
   return (
     <div>
       <Title>Projects</Title>
 
-      <Project img_url={constellation} title="Constellation Projector Lamp" desc={" Aim is To assemble a Projector Lamp that projects constellations of your choice onto a surface via an app connected to a microcontroller in the lamp assembly through a bluetooth module.\n Duration - 1 Sem● Participants - 5-6 Juniors"}/>
-      <Project img_url={solar} title="Solar Tracker" desc="This project intends to develop a solar tracker so that the solar panel or heat receiving surface is always aligned towards the sun. This aligning can easily lead to atleast 20 - 30% extra energy absorption and hence more efficient usage of solar energy"/>
-      <Project img_url={constellation} title="ABCD" desc="Description to be given"/>
+      <Project img_url={constellation} title="Constellation Projector Lamp" desc={constellationDescription()}/>
+      <Project img_url={solar} title="Solar Tracker" desc={solarTracker()}/>
+      <Project img_url={constellation} title="ABCD" desc={"No description as of now"}/>
     </div>
   );
 }

@@ -33,6 +33,9 @@ const Title = styled.div`
     position: absolute;
     top: 50%;
     left: 0;
+    @media (max-width: 500px) {
+      display:none;
+    }
   }
   &:after {
     content: " ";
@@ -43,5 +46,8 @@ const Title = styled.div`
     position: absolute;
     top: 50%;
     right: 0;
+    @media (max-width: 500px) {
+      display:none;
+    }
   }
 `;

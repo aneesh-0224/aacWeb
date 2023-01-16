@@ -30,7 +30,10 @@ const Container = styled.div`
     font-family: "Righteous", cursive;
     text-transform: uppercase;
     letter-spacing: 4px;
-    font-size: 48px;
+    @media (max-width: 500px) {
+      font-size:1.9em;
+    }
+    font-size:50px;
     margin: 8px 0px;
   }
   p {

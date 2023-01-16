@@ -50,6 +50,9 @@ const Title = styled.div`
   font-family: "Righteous", cursive;
   text-transform: uppercase;
   letter-spacing: 4px;
+  @media (max-width: 500px) {
+    font-size:1.6em;
+  }
   font-size: 32px;
   margin: 8px 0px;
   color:white

@@ -15,8 +15,9 @@
   }
   
   /* Add some padding inside the card container */
-  .container {
+  .container-event {
     padding: 2px 16px;
+    margin:20px 0px;
   }
 
   img {

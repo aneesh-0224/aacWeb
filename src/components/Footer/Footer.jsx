@@ -31,7 +31,7 @@ export default function Footer2() {
             </div>
 
             <div className="copy">
-                <p className="copyright-text">Copyright &copy; Website designed by AAC NITK</p>
+                <p className="copyright-text">&copy; Website designed by AAC NITK</p>
             </div>
 
         </footer>

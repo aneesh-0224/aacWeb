@@ -3,7 +3,6 @@ import styled from "styled-components";
 import Event from "./Event";
 import Navbar from "../home/Navbar";
 import bg from "../../assets/hero/bg.svg";
-import Line from "../utilityComponents/Line";
 import e1 from './assets/images.png'
 
 export default function Events() {
@@ -13,7 +12,6 @@ export default function Events() {
       <Navbar />
       <div>
         <Title>Future Events</Title>
-        <Line/>
         <Title>Previous Events</Title>
         <div style={{ display: "flex", justifyContent: "space-around",
         paddingBottom:"20px",flexWrap:"wrap",padding:"8px" }}>

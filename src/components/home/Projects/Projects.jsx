@@ -7,12 +7,12 @@ import constellationDescription from "./utils/constellation";
 import solarTracker from "./utils/solarTracker";
 export default function Projects() {
   return (
-    <div>
+    <div style={{paddingBottom:"70px"}}>
       <Title>Projects</Title>
 
       <Project img_url={constellation} title="Constellation Projector Lamp" desc={constellationDescription()}/>
       <Project img_url={solar} title="Solar Tracker" desc={solarTracker()}/>
-      <Project img_url={constellation} title="ABCD" desc={"No description as of now"}/>
+      {/* <Project img_url={constellation} title="ABCD" desc={"No description as of now"}/> */}
     </div>
   );
 }

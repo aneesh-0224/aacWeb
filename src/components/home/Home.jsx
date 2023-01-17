@@ -5,7 +5,7 @@ import Projects from "./Projects/Projects";
 import Navbar from "./Navbar";
 import styled from "styled-components";
 import bg from "../../assets/hero/bg.svg";
-import Line from "../utilityComponents/Line";
+
 
 function home() {
   return (
@@ -13,7 +13,6 @@ function home() {
       <Navbar />
       <Hero />
       <Sigs />
-      <Line/>
       <Projects />
     </Container>
   );

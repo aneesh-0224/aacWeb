@@ -12,14 +12,14 @@ export default function Team() {
         <Title>Our Team</Title>
 
         <div
-          style={{ display: "flex", marginTop: "60px", 
-          marginBottom: "60px",flexWrap:"wrap",padding:"10px"}}
+          style={{ display: "flex", marginTop: "60px",justifyContent:"space-around", 
+          marginBottom: "60px",flexWrap:"wrap",padding:"15px"}}
         >
           <Member img_url={aneesh}/>
           <Member img_url={aneesh}/>
         </div>
 
-        <div style={{ display: "flex", marginTop: "60px",flexWrap:"wrap",padding:"10px"}}>
+        <div style={{ display: "flex",justifyContent:"space-around", marginTop: "60px",flexWrap:"wrap",padding:"15px"}}>
           <Member img_url={aneesh}/>
           <Member img_url={aneesh}/>
           <Member img_url={aneesh}/>

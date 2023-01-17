@@ -8,11 +8,11 @@
 .column {
   flex: 25%;
   max-width: 100%;
-  padding: 0 4px;
+  padding: 0 10px;
 }
 
 .column img {
-  margin-top: 8px;
+  margin-top: 8px 0px;
   vertical-align: middle;
   width: 100%;
   min-height:700px;

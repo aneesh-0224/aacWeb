@@ -15,7 +15,7 @@ export default function Project() {
               alt="Astronomy Sig"
             />
             <div class="item-header">
-              <ion-icon class="item-icon" name="bulb-outline"></ion-icon>
+              {/* <ion-icon class="item-icon" name="bulb-outline"></ion-icon> */}
               <h3 class="item-title">Astronomy SIG</h3>
             </div>
             <p class="item-text">
@@ -32,7 +32,7 @@ export default function Project() {
               alt="small drone photo catched mid-air"
             />
             <div class="item-header">
-              <ion-icon class="item-icon" name="wallet-outline"></ion-icon>
+              
               <h3 class="item-title">Astrophysics SIG</h3>
             </div>
             <p class="item-text">
@@ -50,10 +50,6 @@ export default function Project() {
               alt="hand holding phone with whatsapp converstaion"
             />
             <div class="item-header">
-              <ion-icon
-                class="item-icon"
-                name="chatbubble-ellipses-outline"
-              ></ion-icon>
               <h3 class="item-title">Media and Design SIG</h3>
             </div>
             <p class="item-text">

@@ -17,13 +17,13 @@
   .item {
     display: flex;
     flex-direction: column;
-
+    
     background-image: linear-gradient(to right bottom, #dee2e6, #dbdbdb);
     box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.507);
     overflow: hidden;
     border-radius: 30px;
     transition: all 0.3s;
-    margin:10px 5px 10px 5px;
+    margin:10px 15px 10px 15px;
     position: relative;
   }
 
@@ -50,8 +50,9 @@
   }
 
   .item-title {
-    font-size: 2.4rem;
+    font-size: 2.2rem;
     font-weight: 400;
+    text-align: left;
   }
 
   .item-text {
